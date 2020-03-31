@@ -1,4 +1,4 @@
-package javaProj;
+package com;
 
 public class Hola {
 
