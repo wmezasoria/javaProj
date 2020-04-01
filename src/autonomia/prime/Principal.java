@@ -1,4 +1,4 @@
-package prime;
+package autonomia.prime;
 
 import java.math.BigInteger;
 import java.util.Random;
