@@ -1,4 +1,4 @@
-package com.test.fruit;
+package test.fruit;
 
 /**
  * @author William.Meza

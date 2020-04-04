@@ -1,4 +1,4 @@
-package com.test.fruit;
+package test.fruit;
 
 import java.util.ArrayList;
 import java.util.InputMismatchException;

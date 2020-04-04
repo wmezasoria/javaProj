@@ -1,4 +1,4 @@
-package com.test;
+package test;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
@@ -6,7 +6,7 @@ import java.util.Locale;
 import java.util.Random;
 import java.util.concurrent.ThreadLocalRandom;
 
-public class CopyOfTest {
+public class ZMain {
 	// public static void main(String[] args) {
 	// System.out.println("nombre: " +
 	// Cabecera.class.getCanonicalName().contains("u"));
@@ -92,10 +92,10 @@ public class CopyOfTest {
 
 	// ////////////////////////////////////////
 
-	public static void main(String[] args) {
-		System.out.println(ThreadLocalRandom.current().nextInt(6, 10 + 1));
-		System.out.println(new Random().nextInt(5));
-	}
+//	public static void main(String[] args) {
+//		System.out.println(ThreadLocalRandom.current().nextInt(6, 10 + 1));
+//		System.out.println(new Random().nextInt(5));
+//	}
 	// //////////////////////////////////////
 //	public static void main(String[] args) {
 //		String str = new String("Welcome to Tutoria ls--  --point.com");
@@ -130,5 +130,33 @@ public class CopyOfTest {
 //        SimpleDateFormat date = new SimpleDateFormat("dd-MMMM-yyyy", new Locale("es","ES"));
 //        System.out.println(date.format(new Date()));
 //    }
+	
+	
+	
+//	public static void main(String[] args) {
+//		int j = 0;
+//		for (int i = 0; i < 5; ++i) {
+//			i = ++j;
+//		}
+//		System.out.println("i = " + i);
+//	}
+	
+	enum Size {
+		small, medium, large, Xlarge
+	};
+
+	public static void main(String [] args) {
+	 for( Size s : Size.values()) {
+	 if (s == Size.small)
+	 System.out.print("small ");
+	 else if (Size.medium.equals(s))
+	 System.out.println("medium ");
+	 else if (s == Size.large)
+	 System.out.println("large ");
+	 else if (s.equals("Xlarge "))
+	 System.out.println("Xlarge ");
+	 else if ( s == "Xlarge ");
+	 System.out.println("Xlarge ");
+	 }
 
 }

@@ -1,4 +1,4 @@
-package test;
+package test.mail;
 
 import java.io.OutputStream;
 import java.net.HttpURLConnection;
@@ -36,7 +36,7 @@ public class Test {
 			String entradaXml = "<entradaEnvioCorreo><remitente>jorge.villaruel@funcionjudicial.gob.ec</remitente><destino>wmezasoria@yahoo.com</destino><copia>william.meza@funcionjudicial.gob.ec</copia>"					
 					+ "<asunto>Fritadas</asunto>"
 					+ "<contenido><![CDATA[<head><meta httpequiv=\"ContentType\" content=\"text/html; charset=UTF-8\"/></head>"
-					+ "<html><body>Estimados, es para mi un placer y me complace de sobre manera en este dia poder invitarlos a una fritadita, previo a las fiestas de la capital. Lastima que mi torrido romance, mi garañoncito, no este. PD: si no les molesta me gustaria invitar al sr padre de chichico de Béltran <br/> Regards Att Comadre Vaca Loca!!!</body></html>]]></contenido>"
+					+ "<html><body>Estimados, es para mi un placer y me complace de sobre manera en este dia poder invitarlos a una fritadita, previo a las fiestas de la capital. Lastima que mi torrido romance, mi garaï¿½oncito, no este. PD: si no les molesta me gustaria invitar al sr padre de chichico de Bï¿½ltran <br/> Regards Att Comadre Vaca Loca!!!</body></html>]]></contenido>"
 					+ "<adjunto>"
 //					+ "<nombreArchivo>"+path1.getFileName().toString() +"</nombreArchivo>"
 //						+ "<data>"+new String(com.sun.jersey.core.util.Base64.encode(bFile1))+"</data>"
@@ -67,7 +67,7 @@ public class Test {
 			oSalida.flush();
 
 			if (conn.getResponseCode() != HttpURLConnection.HTTP_CREATED && conn.getResponseCode() != HttpURLConnection.HTTP_OK) {
-				throw new RuntimeException("Error -> código Http: " + conn.getResponseCode());
+				throw new RuntimeException("Error -> cï¿½digo Http: " + conn.getResponseCode());
 			}
 
 			salidaCorreo = (SalidaEnvioCorreo) JAXB.unmarshal(conn.getInputStream(), SalidaEnvioCorreo.class);

@@ -1,4 +1,4 @@
-package com.test;
+package test.mail;
 
 import javax.xml.bind.annotation.XmlRootElement;
 

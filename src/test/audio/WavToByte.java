@@ -1,4 +1,4 @@
-package com.test.audio;
+package test.audio;
 
 import java.io.ByteArrayOutputStream;
 import java.io.File;

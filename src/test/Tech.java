@@ -1,4 +1,4 @@
-package com.test;
+package test;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;
@@ -38,10 +38,10 @@ public class Tech {
                         exit = true;
                         break;
                     default:
-                        System.out.println("Solo números entre 1 y 4");
+                        System.out.println("Solo nï¿½meros entre 1 y 4");
                 }
             } catch (InputMismatchException e) {
-                System.out.println("Debes insertar un número");
+                System.out.println("Debes insertar un nï¿½mero");
                 scanner.next();
             }
         }
@@ -55,7 +55,7 @@ public class Tech {
 //        Scanner teclado = new Scanner(System.in);
 //        System.out.print("Introduzca su nombre: ");
 //        nombre = teclado.nextLine();
-//        System.out.println("¡Hola " + nombre + "!");
+//        System.out.println("ï¿½Hola " + nombre + "!");
 //    }
 
 	// public static void main(String[] args) {

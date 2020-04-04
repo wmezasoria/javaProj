@@ -1,4 +1,4 @@
-package com.test;
+package test;
 
 import jcifs.smb.NtlmPasswordAuthentication;
 import jcifs.smb.SmbFile;

@@ -1,4 +1,4 @@
-package com.test.fruit;
+package test.fruit;
 
 import java.util.List;
 import java.util.TreeMap;
@@ -35,7 +35,7 @@ public class ServicePreparation {
 		for(Fruit fruit : lFruit) {
 			;
 			if (fruit.getName().equals("strawberry") && fruit.getName().equalsIgnoreCase(flavorSelected))
-				fruit.setMass(fruit.getMass() - new Long(50));//por n para el tamaño
+				fruit.setMass(fruit.getMass() - new Long(50));//por n para el tamaï¿½o
 			else if (fruit.getName().equals("banana") && fruit.getName().equalsIgnoreCase(flavorSelected)) 
 				fruit.setMass(fruit.getMass() - new Long(60));
 			else if (fruit.getName().equals("mango") && fruit.getName().equalsIgnoreCase(flavorSelected))
@@ -44,7 +44,7 @@ public class ServicePreparation {
 		
 		for(ExtraIngredients extra : lExtra) {
 			if (extra.getName().equalsIgnoreCase("ice"))
-				extra.setVolumen(extra.getVolumen() - new Long(30));//por n para el tamaño
+				extra.setVolumen(extra.getVolumen() - new Long(30));//por n para el tamaï¿½o
 			else if (extra.getName().equalsIgnoreCase("milk"))
 				extra.setVolumen(extra.getVolumen() - new Long(20));
 			else if (extra.getName().equalsIgnoreCase("sugar"))
