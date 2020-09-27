@@ -8,7 +8,7 @@ public class Dato {
 //		System.out.println(l );
 //		
 		
-		String s = "41.666668";
+		String s = "41.66666";
 		Float f = Float.valueOf(s);
 		System.out.println(f );
 	}
