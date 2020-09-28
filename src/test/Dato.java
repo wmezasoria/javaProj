@@ -11,6 +11,8 @@ public class Dato {
 		String s = "41.66666";
 		Float f = Float.valueOf(s);
 		System.out.println(f );
+		
+		System.out.println("dev");
 	}
 
 }
