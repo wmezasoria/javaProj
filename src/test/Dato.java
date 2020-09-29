@@ -13,6 +13,8 @@ public class Dato {
 		System.out.println(f );
 		
 		System.out.println("myfeature");
+		System.out.println("myfeature1");
+		
 	}
 
 }
