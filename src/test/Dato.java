@@ -19,7 +19,6 @@ public class Dato {
 		System.out.println("myfeature");
 		System.out.println("myfeature1");
 		System.out.println("myfeature2");
-		
 	}
 
 }
